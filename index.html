@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil GitHub</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+<body>
+    <div class="conteiner">
+
+        <div class="logo">
+            <a href="index.html"><img src="imagens/GitHub logo.jpg" alt="Logo GitHub"></a>
+            <h1><span class="fino">Perfil</span> <strong>GitHub</strong></h1>
+        </div>
+
+        <div class="input-conteiner">
+            <input type="text" id="username" placeholder="Digite um usuário do GitHub"/>
+            <button onclick="buscarUsuario()">
+              <img src="imagens/icon 2.png" alt="Buscar" id="lupa-icon" />
+            </button>
+        </div>
+
+        <div id="loading" class="loading hidden"></div>
+        <div id="erro" class="erro hidden"></div>
+        <div id="resultado"></div>
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
